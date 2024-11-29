@@ -20,7 +20,8 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 2,
-				"startTime": "2024-11-29T20:18:00",
+				"startTime": "2024-11-29T15:24:00",
+				"endTime": "2024-11-29T15:30:00",
 				"timeZone": "Eastern Standard Time"
 			}
 		}

@@ -1,0 +1,9 @@
+{
+	"name": "source-raw",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "69c4cd72-83e3-4f8e-8166-f7d391cc6dac",
+		"tenantId": "a9d24485-1b74-4324-9289-bbc89f35a52a"
+	}
+}

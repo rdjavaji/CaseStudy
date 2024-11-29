@@ -1,0 +1,9 @@
+{
+	"name": "cs-git-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "420df0b8-f4c1-4c1b-b8f6-de977e1d926a",
+		"tenantId": "a9d24485-1b74-4324-9289-bbc89f35a52a"
+	}
+}

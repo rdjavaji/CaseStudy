@@ -49,7 +49,8 @@
 							"SourceActive": {
 								"value": "@pipeline().parameters.SourceActive",
 								"type": "Expression"
-							}
+							},
+							"Sinkfile": "Query.customers.csv"
 						}
 					}
 				],

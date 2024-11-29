@@ -1,0 +1,29 @@
+{
+	"name": "Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline4",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"SourceActive": "rdjavaji/CaseStudy/tree/main/Data",
+					"SinkFile": "Query.customers.csv"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2024-11-29T03:22:00",
+				"endTime": "2024-11-29T03:32:00",
+				"timeZone": "Eastern Standard Time"
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+transaction_id,account_id,transaction_date,transaction_amount,transaction_type
+1,1,2024-09-01,200.00,Deposit
+2,1,2024-09-03,-100.00,Withdrawal
+3,2,2024-09-02,300.00,Deposit
+4,2,2024-09-04,-50.00,Withdrawal
+5,3,2024-09-05,150.00,Deposit
+6,4,2024-09-06,-200.00,Withdrawal
+7,5,2024-09-07,250.00,Deposit
+8,6,2024-09-08,-300.00,Withdrawal
+9,7,2024-09-09,400.00,Deposit
+10,8,2024-09-10,-150.00,Withdrawal

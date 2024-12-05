@@ -85,7 +85,7 @@ Datasets: Datasets were created for each data source to define the schema and st
 
 - After cleaning and aggregating the data, the final result was written to the Gold container, ready for downstream analysis or reporting.
 
-[pyspark] (https://github.com/rdjavaji/casestudy2/blob/main/Azure%20Databricks/processing.ipynb)
+[pyspark] (https://github.com/rdjavaji/CaseStudy/blob/main/Databricks/processing.ipynb)
 
 ## Azure Synapse Analytics:
 

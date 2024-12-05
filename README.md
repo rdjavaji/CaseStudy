@@ -104,3 +104,5 @@ Created an external table in Azure Synapse Analytics to to enable querying the p
 - Created New resource group with name: my_rg
 - Created New Azure data Factory: pr_adf1
 - Configured Github branch as "QA" to Azure Data
+
+[Steps for Project] (https://github.com/rdjavaji/CaseStudy/blob/main/Documentation%20on%20Project.pdf)

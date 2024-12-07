@@ -56,6 +56,12 @@ Datasets: Datasets were created for each data source to define the schema and st
 - Second Pipeline: Transferred data from the HTTP source (Data from GitHub) to the Raw container in Azure Data Lake.
 - Data Storage: The Raw container now contained both SQL database data and the HTTP data from the ecommers file.
 
+## GitHub Pull Request:
+
+- Created New resource group with name: my_rg
+- Created New Azure data Factory: pr_adf1
+- Configured Github branch as "QA" to Azure Data
+
 ## Azure Databricks:
 
 - Azure Databricks was created with name "casestudy2_databricks" and created a cluster, folder, Notebook. 
@@ -87,10 +93,5 @@ Datasets: Datasets were created for each data source to define the schema and st
 
 [pyspark] (https://github.com/rdjavaji/CaseStudy/blob/main/Databricks/processing.ipynb)
 
-## GitHub Pull Request:
-
-- Created New resource group with name: my_rg
-- Created New Azure data Factory: pr_adf1
-- Configured Github branch as "QA" to Azure Data
 
 [Steps for Project] (https://github.com/rdjavaji/CaseStudy/blob/main/Documentation%20on%20Project.pdf)

@@ -1,5 +1,5 @@
 
-# Casestudy
+# Casestudy - Data Lake Project 
 
 This casestudy demonstrate ingesting data from Azure SQL database and http API into the datalake storage account. Performing data cleaning and transformations, and storing the results in an Azure Data Lake house and Synapse Analytics.
 
@@ -87,19 +87,7 @@ Datasets: Datasets were created for each data source to define the schema and st
 
 [pyspark] (https://github.com/rdjavaji/CaseStudy/blob/main/Databricks/processing.ipynb)
 
-## Azure Synapse Analytics:
-
-Created an external table in Azure Synapse Analytics to to enable querying the processed data. This step allowed users to run SQL queries over the Gold container's data for reporting, analysis, and decision-making.
-
-- Createed Azure Synapse Analytics with name as "casestudysynapse"
-* Launch Synapse studio
-* Created External table
-* CREATE external data source for the Silver container
-* creating external data source for the Gold container
-* External table name: dbo.customer_account_summary1
-* Run the script and executed
-
-## GitHub Pull Request: 
+## GitHub Pull Request:
 
 - Created New resource group with name: my_rg
 - Created New Azure data Factory: pr_adf1
